@@ -29,7 +29,7 @@ Run the API using the following command:
 python app.py
 ```
 
-The API will start running at http://localhost:5000.
+The API will start running at http://localhost:64094.
 
 ## API Endpoints
 
