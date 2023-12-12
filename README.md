@@ -80,7 +80,7 @@ The API will start running at http://localhost:64094.
     ```json
     {
         "model_id": 1,
-        "features": [...]
+        "features": [[...]]
     }
     ```
 - **Response**:
@@ -92,9 +92,9 @@ The API will start running at http://localhost:64094.
 
 ### Delete a Model
 
-- **Endpoint**: `/delete/{model_id}`
+- **Endpoint**: `/delete/{model_type}`
 - **Method**: `DELETE`
-- **Description**: Delete a trained model by ID.
+- **Description**: Delete a trained model.
 - **Response**:
     ```json
     {
